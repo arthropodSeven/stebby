@@ -1,0 +1,13 @@
+# Stebby
+
+Stebby is a tiny library for stubbing out APIs. I'm a frontend developer, and when I have an
+idea for a project, I often think that it would be helpful if I could spec out the API first,
+without putting a great deal of time into it, to think about how it should be put together in
+relation to the frontend and the features I want the project to have. That's what this library
+is for: you can connect stebby to your API library of choice (express, koa, hapi, whatever) and
+use its functions to simulate making changes to data. The output will be written to YML files in
+a `stebby/` subdirectory of your project, or you can use the `STEBBY` envvar to specify another
+directory. 
+
+This project is under active development and is not yet functional. Feel free to submit pull
+requests or request features.
