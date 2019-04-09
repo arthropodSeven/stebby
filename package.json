@@ -1,0 +1,18 @@
+{
+  "name": "stebby",
+  "version": "0.0.1",
+  "description": "tiny local API stubs",
+  "main": "index.ts",
+  "repository": "https://github.com/arthropodSeven/stebby",
+  "author": "stebby",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/js-yaml": "^3.12.1",
+    "dotenv": "^7.0.0",
+    "js-yaml": "^3.13.1",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {}
+}
